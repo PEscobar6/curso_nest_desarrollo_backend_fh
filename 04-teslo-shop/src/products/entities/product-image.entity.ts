@@ -10,6 +10,16 @@ export class ProductImage {
     @Column('text')
     url: string;
 
+    @Column('text')
+    public_id: string;
+
+    //TODO: save public_api
+
+    //TODO: save secure_url
+
+    //TODO: save extension file
+
+
     @ManyToOne(
         () => Product,
         product => product.images,

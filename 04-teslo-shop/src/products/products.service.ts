@@ -24,7 +24,7 @@ export class ProductsService {
   ) {}
 
   async create(createProductDto: CreateProductDto) {
-    
+    // TODO: upload images to cloudinary
     try {
 
       const { images = [], ...productDetails } = createProductDto;

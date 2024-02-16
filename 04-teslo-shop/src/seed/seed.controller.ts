@@ -8,8 +8,8 @@ export class SeedController {
   constructor(private readonly seedService: SeedService) {}
 
   @Get()
-  @Auth(ValidRoles.superUser)
+  // @Auth(ValidRoles.superUser)
   async executeSeed() {
-    await this.seedService.runSeed();
+    return await this.seedService.runSeed();
   }
 }

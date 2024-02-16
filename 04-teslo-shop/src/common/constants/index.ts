@@ -1,0 +1,1 @@
+export const PASSWORD_PATTER = /(?:(?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$/;

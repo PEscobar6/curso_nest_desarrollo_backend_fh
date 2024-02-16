@@ -10,8 +10,8 @@ export class ProductImage {
     @Column('text')
     url: string;
 
-    @Column('text')
-    public_id: string;
+    // @Column('text')
+    // public_id: string;
 
     //TODO: save public_api
 
